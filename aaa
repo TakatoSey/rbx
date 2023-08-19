@@ -399,7 +399,7 @@ Functions = Library.Functions
 PetIDList = {}
 
 table.foreach(Library.Directory.Pets, function(i, v)
-    if v.huge or v.titanic or v.name == "banana" or v.name == "Bladee" or v.convertPoints == 5 then -- get pets to withdraw from banks
+    if v.huge or v.titanic or v.name == "bananaor v.name == "Bladee" or v.convertPoints == 5 then -- get pets to withdraw from banks
         table.insert(PetIDList, i)
     end
 end)
